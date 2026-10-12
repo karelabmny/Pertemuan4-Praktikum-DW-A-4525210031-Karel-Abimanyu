@@ -28,8 +28,8 @@ Membangun ulang halaman profil menjadi dua file (`index.html` dan `style.css`) d
 
 | Halaman | Desktop |
 |---|---|---|
-| Profil | ![Profil Desktop]( <img width="1902" height="1052" alt="output-biodata" src="https://github.com/user-attachments/assets/759b5d8c-896a-406b-8ccf-99519f00f361" /> <img width="1895" height="935" alt="output-biodata-1" src="https://github.com/user-attachments/assets/f1722855-5352-4164-945b-579a7fa905a1" />
-) |
+| Profil |<img width="1902" height="1052" alt="output-biodata" src="https://github.com/user-attachments/assets/759b5d8c-896a-406b-8ccf-99519f00f361" /> <img width="1895" height="935" alt="output-biodata-1" src="https://github.com/user-attachments/assets/f1722855-5352-4164-945b-579a7fa905a1" />
+|
 | Arunika Studio | ( <img width="1920" height="996" alt="output-arunikastudio" src="https://github.com/user-attachments/assets/70a2b792-4a11-4a57-939e-15a82d0aa589" />) |
 
 ## Ringkasan Perubahan, Masalah, dan Solusi
