@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f7fa;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.button {
+    display: inline-block;
+    background-color: #1e3a5f;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background-color: #2f5d8f;
+}
+
+.card {
+    width: 31%;
+    margin: 1%;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #1e3a5f;
+}
+
+.card h3 {
+    color: #1e3a5f;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #9400c1;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #131664;
+}
+
+#hero {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.hero-content {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    width: 55%;
+}
+
+.hero-text h2 {
+    font-size: 42px;
+    color: #1e3a5f;
+}
+
+.hero-text h3 {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    margin-bottom: 25px;
+}
+
+.hero-sun {
+    width: 280px;
+    height: 280px;
+    background-color: #f4a261;
+    border: 6px solid #1e3a5f;
+    border-radius: 50%;
+}
+
+.section {
+    padding: 70px 0;
+}
+
+.section h2 {
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.section-desc {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+
+    header .container {
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
